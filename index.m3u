@@ -1,3 +1,7 @@
+#EXTM3U
+# IPTV Base Channels
+# allowed-IPTV Channels and URL start in 25184 line
+
 #EXTM3U x-tvg-url="https://worker-9dd4.onrender.com/guide.xml.gz"
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",00s Replay
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
@@ -25178,6 +25182,34 @@ http://183.207.248.71/cntv/live1/HD-2500k-1080P-heilongjiangstv/HD-2500k-1080P-h
 #EXTINF:-1 tvg-id="HeilongjiangTV.cn@SD" tvg-logo="https://i.imgur.com/9fj1uba.png" group-title="General",黑龙江卫视 (2160p)
 http://118.81.195.79:9003/hls/31/index.m3u8
 
-# CARTOON NETWORK
+# allowed-IPTV Repo Channels
+
+# CARTOON NETWORK USA
 #EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png?lock=720x540" group-title="Kids",Cartoon Network (1080p)
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
+
+# CINEMAX USA
+#EXTINF:-1 tvg-id="Cinemax.us" tvg-logo="https://i.imgur.com/cZWoJWD.png" group-title="Movies",Cinemax (1080p)
+http://23.237.104.106:8080/USA_CINEMAX/index.m3u8
+
+# ASIAN FOOD NETWORK
+#EXTINF:-1 tvg-id="AsianFoodNetwork.sg@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Food_Network_logo.svg" group-title="Cooking",Food Network Asia (1080p)
+http://line.hostytv.store/play/live.php?mac=00:1A:79:bf:e9:f8&stream=534440&extension=m3u8
+
+# BOOMBERANG USA
+#EXTINF:-1 tvg-id="CartoonitoAsia.sg@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomberang (1080p)
+http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
+
+# ESPN (Brazil) SD
+#EXTINF:-1 tvg-id="ESPN.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="Sports",ESPN Brazil (1080p)
+https://cors-proxy.cooks.fyi/http://41.205.93.154/ESPN/tracks-v1a1/mono.m3u8
+
+# GIALLO
+#EXTINF:-1 tvg-id="Giallo.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Giallo_-_Logo_2014.svg/330px-Giallo_-_Logo_2014.svg.png" group-title="Movies",Giallo (1080p)
+http://91.146.94.234:10001/play/a09p?CTart
+
+# IPTV IPs before add it
+
+# CANAL+ FOOT HD
+#EXTINF:-1 tvg-id="CanalPlusFoot.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/3/3b/C%2B_Foot.png" group-title="Sports",Canal+ Foot [GeoBlocked](2120p)
+https://viamotionhsi.netplus.ch/live/eds/canalplusclair/browser-HLS8/canalplusclair.m3u8
